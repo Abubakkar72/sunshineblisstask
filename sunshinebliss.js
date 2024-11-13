@@ -23,7 +23,7 @@ productDivs.forEach(productDiv => {
     } else {
       productDiv.style.height = '74px';
       productDiv.style.border = '1px solid #00000040';
-      bannerDiv.style.bottom = '174px';
+      bannerDiv.style.bottom = '234px';
     }
 
     console.log("Current height:", productDiv.offsetHeight); // Logs current height
